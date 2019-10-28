@@ -6,4 +6,4 @@ print(near_hundred(89))
 
 
 
-#(n >= 90 or n <= 100) or (n >= 190 or n <= 200)
+#(n >= 90 or n <= 100) or (n >= 190 or n <= 200) ( a == 1 )

@@ -6,3 +6,16 @@ near_hundred(90) → True
 near_hundred(89) → False
 
 def near_hundred(n):
+
+
+This question suggests 
+the integer n needs to be within 10 to 100 or 10 to 200.
+
+if n is less than 100 then it can not be less than 10,
+if n is more than 10 then it can not be either 100 or 200. 
+
+pseudo code:
+1. deduct n from 100 or 200.
+2. if the remaining number is more than 10, returns false.
+3. 100 - 89(n) = 11
+this suggests 
