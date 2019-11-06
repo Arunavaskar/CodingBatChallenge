@@ -12,3 +12,4 @@ function front3(str):
   else {
     return str.slice(0,3) + str.slice(0,3) + str.slice(0,3);
   }
+  //Let's start the Night!!!!!
