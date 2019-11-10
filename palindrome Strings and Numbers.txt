@@ -37,4 +37,14 @@ No lemon, no melon
 
 
 Pseudo Code:
-1.
+1. The main idea behind Palindrome is that if we mirror/reverse print the string,
+    it will be same. eg: madam in reverse is madam
+2. so we will need to reverse the string and then compare that with the original one
+OR
+3. you can compare 1st and last index of the string to confirm and then continue the comparison
+    towards middle of it to say if it is or not a palindrome.
+OR
+4. you can get the length of the string and then get the half portion of the string and reverse it to compare it 
+    with the first portion of the string.
+
+At probably you already know that the first solution is the most effective one so far!
