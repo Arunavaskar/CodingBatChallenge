@@ -10,9 +10,8 @@
 def string_bits(str):
     return str[::2]
 
-count = 0
 newstr = ''
-while count != len(str):
-    if count % 2 = 0:
-        newstr += str[count]
+for i in range(len(str)):
+    if i % 2 == 0:
+        newstr += str[i]
 return newstr
