@@ -1,21 +1,25 @@
 function array_front9(nums){
-  //if length of nums is equal to or greater than 4
-  if (nums.length >= 4) {
-    //store first 4 items of nums in variable
-    var numslice = nums.slice(0,4);
-    //and check each item from that
-    for (var i = 0; i < numslice.length; i++) {
-      // if is 9 or not and then return
-      if (i == 9){
-        return i == 9
+  var result;
+  if (nums.length < 4) {
+    for (var i = 0; i < nums.length; i++) {
+      if (nums[i] == 9) {
+        result = true;break;
       }
-    return i == 9
+       else {
+         result = false;continue;
+       }
     }
   }
-
-  // else:
-  // for i in nums:
-  //     if i == 9:
-  //         return i == 9
-  // return i == 9
+  else {
+    var num4 = nums.splice(0,4);
+    for (var i = 0; i < num4.length; i++) {
+      if (num4[i] == 9) {
+        result = true;break;
+      }
+      else {
+        result = false;continue;
+      }
+    }
+  }
+  return result;
 }
