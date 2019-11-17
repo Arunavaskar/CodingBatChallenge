@@ -23,3 +23,5 @@ function array_front9(nums){
   }
   return result;
 }
+
+https://gist.github.com/Arunavaskar/8c5e2f286a58b05dd3cdb5f9267ab0e8
