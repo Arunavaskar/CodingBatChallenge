@@ -1,5 +1,5 @@
-def wow(str, str2):
-    print(str[: 2] + str2 + str[2: 4])
+def make_out_word(out, word):
+    print(out[: 2] + word + out[2: 4])
 
 
-wow("<<>>", "hello")
+make_out_word("<<>>", "hello")
